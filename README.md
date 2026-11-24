@@ -55,9 +55,11 @@ Terraform is used to define and manage the AWS infrastructure.
 
 ## Project Structure
 
-- `diagrams/` – Architecture diagrams.
-- `terraform/` – Infrastructure configuration files.
+- `diagrams/` – AWS architecture diagrams.
+- `terraform/` – Terraform infrastructure configuration files.
+- `runbooks/` – Application and database failure recovery procedures.
 - `README.md` – Project documentation.
+- `.gitignore` – Excludes sensitive and unnecessary files.
 
 ## Region
 
