@@ -174,8 +174,8 @@ resource "aws_db_instance" "student_database" {
   backup_retention_period = 7
   backup_window           = "18:00-19:00"
 
-  deletion_protection = true
-  skip_final_snapshot = false
+  deletion_protection       = true
+  skip_final_snapshot       = false
   final_snapshot_identifier = "${var.project_name}-final-snapshot"
 
   tags = {

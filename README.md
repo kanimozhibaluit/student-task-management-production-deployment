@@ -1,5 +1,5 @@
-
-# Student Task Management – AWS Cloud Architecture
+﻿
+# Student Task Management - AWS Cloud Architecture
 
 ## Project Overview
 
@@ -55,11 +55,11 @@ Terraform is used to define and manage the AWS infrastructure.
 
 ## Project Structure
 
-- `diagrams/` – AWS architecture diagrams.
-- `terraform/` – Terraform infrastructure configuration files.
-- `runbooks/` – Application and database failure recovery procedures.
-- `README.md` – Project documentation.
-- `.gitignore` – Excludes sensitive and unnecessary files.
+- `diagrams/` - AWS architecture diagrams.
+- `terraform/` - Terraform infrastructure configuration files.
+- `runbooks/` - Application and database failure recovery procedures.
+- `README.md` - Project documentation.
+- `.gitignore` - Excludes sensitive and unnecessary files.
 
 ## Region
 
