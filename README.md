@@ -68,3 +68,32 @@ AWS Mumbai Region (ap-south-1).
 ## Author
 
 Student Cloud Architecture Project
+## How to Run and Validate
+
+### Prerequisites
+- Terraform installed
+- Git installed
+- AWS account and credentials required only for AWS deployment
+
+### Steps
+
+1. Clone the repository.
+2. Navigate to the Terraform directory.
+3. Initialize Terraform:
+
+   terraform init
+
+4. Check formatting:
+
+   terraform fmt -check -recursive
+
+5. Validate configuration:
+
+   terraform validate
+
+6. Review infrastructure changes:
+
+   terraform plan
+
+Note: AWS credentials are required for terraform plan.
+Actual AWS deployment has not been performed as part of this project.
